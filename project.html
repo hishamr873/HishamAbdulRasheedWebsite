@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">TEXTBOOK ENHANCEMENT</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Tools Used</a></li>
+          <li><a href="#projects">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Tools Used</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">textbook enhancement is a</p>
+        <h1 class="title">AR based Project</h1>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='#about'">
+            Know more
+          </button>
+      </div>
+    </section>
+  
+    <section id="about">
+        <h1 class="title">About</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title"></h2>
+              <p> "Textbook Enhancement Using AR Technologies" represents a revolutionary educational paradigm that harnesses the potential of Augmented Reality (AR) to reshape the learning experience. Traditional textbooks have long been a staple of education, but in today's digital age, they often struggle to fully engage students. This project addresses this challenge head-on by seamlessly merging the physical and digital realms, injecting a new dimension of interactivity into textbooks.
+
+                Through the integration of AR technology, this project redefines how students interact with educational content. By simply scanning textbook pages with an AR-enabled device, intricate 3D models, animations, and interactive elements spring to life, creating a captivating multisensory experience. For instance, a biology lesson discussing cellular structures could unveil interactive 3D renderings that students can manipulate and explore. This innovative approach transcends conventional learning, fostering active participation and a deeper comprehension of complex subjects.
+                
+                The impact of this initiative extends far beyond conventional learning methodologies. It caters to diverse learning styles, catering to visual learners through vivid visualizations and accommodating kinesthetic learners with interactive touchpoints. Furthermore, this integration aligns seamlessly with the digital era, where technology is integral to everyday life. By seamlessly blending educational content with AR, this project taps into the power of technology to elevate the learning journey, delivering an education that is immersive, captivating, and ultimately more effective.
+                
+                Incorporating interactive buttons within the AR-enhanced content amplifies the engagement further. These buttons could enable students to delve deeper into specific topics, trigger explanatory videos, or even initiate quizzes to reinforce learning. By empowering students to guide their learning path, this project not only enriches the educational experience but also cultivates a sense of ownership over one's learning journey. As a result, "Textbook Enhancement Using AR Technologies" embodies innovation, personalization, and a progressive approach to education in the digital age.</p>
+              <div class="article-container">
+      </section>
+
+    <section id="experience">
+      <h1 class="title">Toll used</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <p>The "Textbook Enhancement Using AR Technologies" project is a sophisticated endeavor that relies on a harmonious blend of specialized tools and software to craft a captivating augmented reality experience for learners. At its core, Unity 3D emerges as the central development platform, providing an intuitive interface and powerful features to design, animate, and program intricate 3D content seamlessly integrated with the physical textbook pages.
+
+                In tandem with Unity, the project leverages the capabilities of Vuforia SDK, a robust software development kit purpose-built for AR experiences. Vuforia enables precise real-world image or object recognition, allowing the AR application to overlay digital elements onto the tangible textbook pages with remarkable accuracy. This integration hinges on C#, a programming language that facilitates the creation of scripts governing interactions within the Unity environment. Through C#, developers engineer responsive behaviors, ensuring a fluid and dynamic interaction between users and the AR-enhanced content.
+                
+                Supporting the creation of intricate 3D models and animations is Blender, an open-source software known for its versatility in modeling and animation. Blender is pivotal in crafting lifelike visuals that elucidate complex concepts, thereby enriching the overall learning experience. To perfect the visual components, Adobe Photoshop comes into play, offering the tools needed to refine images, create textures, and elevate graphical elements.
+                
+                By orchestrating the capabilities of Unity 3D, Vuforia SDK, C#, Blender, and Adobe Photoshop, the "Textbook Enhancement Using AR Technologies" project transforms traditional textbooks into interactive educational resources. This amalgamation of tools empowers educators to harness the potential of augmented reality, presenting students with immersive, engaging, and educational content that transcends the conventional learning paradigm.</p>
+            <div class="article-container">
+    </section>
+
+    <section id="projects">
+      <h1 class="title">Gallery</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/1_LEDBulb_scaled.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Page design</h2>
+            <div class="btn-container">
+              <button
+              >
+              </button>
+              <button
+              >
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/Target.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">image augmentation</h2>
+            <div class="btn-container">
+              <button
+              >  
+              </button>
+              <button
+              >
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<br><br>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="images/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">rasheedhisham16@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="images/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="images/link.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="index.html">Website</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2023 Hisham Rasheed. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
